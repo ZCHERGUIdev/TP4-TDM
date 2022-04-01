@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailesActivity">
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="96dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/txtTiwitName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:layout_below="@id/imageLogo"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/txtTiwitDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:layout_below="@id/txtTiwitName"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:layout_below="@id/txtTiwitDesc"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+</RelativeLayout>

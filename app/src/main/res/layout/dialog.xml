@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/txt"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:autofillHints=""
+            android:hint="add_twite"
+            android:inputType="text"
+            android:textColorHighlight="#2196F3"
+            android:textColorLink="#2196F3"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="add"
+            android:textColor="@color/black"/>
+
+
+</LinearLayout>
